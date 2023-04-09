@@ -1,0 +1,226 @@
+:root {
+    --primary-color: #e50914;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        background: #000;
+        color: #999;
+    }
+    
+    ul {
+        list-style: none;
+    
+    }
+    
+    h1, h2, h3, h4 {
+        color: #fff;
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    
+    }
+    
+    p {
+        margin: 0.5rem 0;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .showcase {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background: url(../img/net.jpg) no-repeat center center/cover;
+    }
+    
+    .showcase::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: rgba(0,0,0, 0.5);
+        box-shadow: inset -120px -100px 250px #000;
+    }
+    
+    .showcase-top {
+    position: relative;
+    height: 90px;
+    z-index: 2;
+    }
+    
+    .showcase-top img{
+        width: 170px;
+        position: absolute;
+        top: 51%;
+        left: 7.3%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .showcase-top a {
+        margin-top: 50px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%);
+    }
+    .sign-in-body{
+        padding: 60px;
+        border-radius: 5px;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 22%;
+        height: 63%;
+        z-index: 2;
+        background: rgba(0,0,0, 0.68);
+        margin-left: 720px;
+        margin-right: 0px;
+        margin-top: 100px;
+    }
+    .sign-in-body h1 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+    .sign-in-body input {
+        height: 50px;
+        width: 100%;
+        border-radius: 3px;
+        background: #333;
+        color: #fff;
+        border: 1px solid #333;
+        padding-left: 15px;
+        box-sizing: border-box;
+        outline: none;
+    }
+    .input-edit1{
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+   .input-edit2 {
+       margin-bottom: 25px;
+   }
+   .sign-in-body button {
+       height: 50px;
+       width: 100%;
+       background: var(--primary-color);
+       color: #fff;
+       outline: none;
+       border: var(--primary-color);
+       border-radius: 3px;
+       font-weight: 500;
+       font-size: 16px;
+   }
+   .support input {
+       width: 15px;
+       height: 15px;
+   }
+    .support {
+        display: flex;
+        color: #b3b3b3;
+        justify-content: space-between;
+        font-size: 12px; 
+    }
+  .remember-me {
+      display: flex;
+      align-items: center;
+  }
+  .remember-me span {
+      margin-right: 10px;
+      height: 25px;
+      color: #999;
+  }
+
+  .login-facebook {
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      color: #737373;
+  }
+  .login-facebook img {
+      width: 20px;
+      height: 20px;
+  }
+  .login-facebook span {
+      margin-top: 15px;
+      margin-right: 10px;
+      font-size: 13px;
+  }
+.login-facebook span a {
+    color: #737373;
+}
+.sign-up {
+    color: #737373;
+} 
+.sign-up a {
+    font-size: 16px;
+}
+.terms {
+    color: #737373;
+    font-size: 13px;
+}
+.terms a{
+    color: #0071eb;
+}
+.line5 {
+    
+    height: 300px;
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0,0,0, 0.68);
+    padding: 60px;
+    margin-top: 750px;
+}
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.footer .lang-select {
+	margin-top: 2rem;
+	color: #999;
+	background-color: #000;
+	background-image: none;
+	
+	padding: 1rem 1.2rem;
+	border-radius: 5px;
+}
+    
+
+
+  
+    
