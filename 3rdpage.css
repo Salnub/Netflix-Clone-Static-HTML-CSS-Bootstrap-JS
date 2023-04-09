@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+.whos{
+color: white;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 70px;
+}
+
+.img{
+margin: 15px;
+text-align: center;
+color: gray;
+}
+.im1{
+    margin: 15px;
+    text-align: center;
+color: gray;
+
+    }
+.img2{
+ margin: 15px;
+text-align: center;
+color: gray;
+
+}
+.img3{
+margin: 15px;
+text-align: center;
+color: gray;
+
+}
+
+.room{
+    text-align: center;
+    margin: 400px;
+    margin-top: -400px;
+}
+.num{
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-left: 50px;
+}
+.way{
+    color: #fff;
+}
+
+.btn-dark{
+margin-right: 80px;
+margin-left: 100px;
+}
